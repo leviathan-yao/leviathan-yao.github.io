@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="97da5a30ae5348a99e1a6dae33cbb7ae" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_97da5a30ae5348a99e1a6dae33cbb7ae = echarts.init(
+            document.getElementById('97da5a30ae5348a99e1a6dae33cbb7ae'), 'white', {renderer: 'canvas'});
+        var option_97da5a30ae5348a99e1a6dae33cbb7ae = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u4e16\u754c\u524d\u5341\u7ecf\u6d4e\u4f53",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "United States",
+                    "value": 20513000
+                },
+                {
+                    "name": "China",
+                    "value": 13457267
+                },
+                {
+                    "name": "Japan",
+                    "value": 5070626
+                },
+                {
+                    "name": "Germany",
+                    "value": 4029140
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 2808899
+                },
+                {
+                    "name": "France",
+                    "value": 2794696
+                },
+                {
+                    "name": "India",
+                    "value": 2689992
+                },
+                {
+                    "name": "Italy",
+                    "value": 2086911
+                },
+                {
+                    "name": "Brazil",
+                    "value": 1909386
+                },
+                {
+                    "name": "Canada",
+                    "value": 1733706
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u4e16\u754c\u524d\u5341\u7ecf\u6d4e\u4f53"
+            ],
+            "selected": {
+                "\u4e16\u754c\u524d\u5341\u7ecf\u6d4e\u4f53": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u4e16\u754c\u5730\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 21000000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_97da5a30ae5348a99e1a6dae33cbb7ae.setOption(option_97da5a30ae5348a99e1a6dae33cbb7ae);
+    </script>
+</body>
+</html>

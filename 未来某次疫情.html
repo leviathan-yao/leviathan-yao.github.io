@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="1a92da26f96f4cc19352f26c46c213f8" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_1a92da26f96f4cc19352f26c46c213f8 = echarts.init(
+            document.getElementById('1a92da26f96f4cc19352f26c46c213f8'), 'white', {renderer: 'canvas'});
+        var option_1a92da26f96f4cc19352f26c46c213f8 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "\u761f\u75ab\u4f20\u64ad\u5730\u533a",
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "world",
+                "data": [
+                    {
+                        "name": "United States",
+                        "value": 212125
+                    },
+                    {
+                        "name": "Canada",
+                        "value": 57328
+                    },
+                    {
+                        "name": "Mexico",
+                        "value": 13518
+                    },
+                    {
+                        "name": "Cuba",
+                        "value": 378
+                    },
+                    {
+                        "name": "Greenland",
+                        "value": 73
+                    },
+                    {
+                        "name": "Ireland",
+                        "value": 344
+                    },
+                    {
+                        "name": "Russia",
+                        "value": 1000
+                    },
+                    {
+                        "name": "China",
+                        "value": 10
+                    },
+                    {
+                        "name": "United Kingdom",
+                        "value": 80
+                    },
+                    {
+                        "name": "Spain",
+                        "value": 110
+                    },
+                    {
+                        "name": "Germany",
+                        "value": 128
+                    },
+                    {
+                        "name": "France",
+                        "value": 123
+                    },
+                    {
+                        "name": "Italy",
+                        "value": 34
+                    },
+                    {
+                        "name": "Mococco",
+                        "value": 345
+                    },
+                    {
+                        "name": "Colombia",
+                        "value": 231
+                    },
+                    {
+                        "name": "Brazil",
+                        "value": 221
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": false,
+                "emphasis": {},
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "6\u6708",
+                "7\u6708",
+                "8\u6708",
+                "9\u6708"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "piecewise",
+            "min": 0,
+            "max": 322342,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 14,
+            "borderWidth": 0,
+            "pieces": [
+                {
+                    "min": 10000
+                },
+                {
+                    "min": 2500,
+                    "max": 10000
+                },
+                {
+                    "min": 600,
+                    "max": 2500
+                },
+                {
+                    "min": 200,
+                    "max": 600
+                },
+                {
+                    "min": 10,
+                    "max": 200
+                }
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a"
+                    ],
+                    "selected": {
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u761f\u75ab\u4f20\u64ad\u5730\u533a",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "United States",
+                            "value": 100
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-16\u6708\u761f\u75ab\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 322342,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 10000
+                    },
+                    {
+                        "min": 2500,
+                        "max": 10000
+                    },
+                    {
+                        "min": 600,
+                        "max": 2500
+                    },
+                    {
+                        "min": 200,
+                        "max": 600
+                    },
+                    {
+                        "min": 10,
+                        "max": 200
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a"
+                    ],
+                    "selected": {
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u761f\u75ab\u4f20\u64ad\u5730\u533a",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "United States",
+                            "value": 2110
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 178
+                        },
+                        {
+                            "name": "Mexico",
+                            "value": 518
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-17\u6708\u761f\u75ab\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 322342,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 10000
+                    },
+                    {
+                        "min": 2500,
+                        "max": 10000
+                    },
+                    {
+                        "min": 600,
+                        "max": 2500
+                    },
+                    {
+                        "min": 200,
+                        "max": 600
+                    },
+                    {
+                        "min": 10,
+                        "max": 200
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a"
+                    ],
+                    "selected": {
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u761f\u75ab\u4f20\u64ad\u5730\u533a",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "United States",
+                            "value": 21215
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 1728
+                        },
+                        {
+                            "name": "Mexico",
+                            "value": 3518
+                        },
+                        {
+                            "name": "Cuba",
+                            "value": 78
+                        },
+                        {
+                            "name": "Greenland",
+                            "value": 23
+                        },
+                        {
+                            "name": "Ireland",
+                            "value": 34
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 100
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-18\u6708\u761f\u75ab\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 322342,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 10000
+                    },
+                    {
+                        "min": 2500,
+                        "max": 10000
+                    },
+                    {
+                        "min": 600,
+                        "max": 2500
+                    },
+                    {
+                        "min": 200,
+                        "max": 600
+                    },
+                    {
+                        "min": 10,
+                        "max": 200
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a"
+                    ],
+                    "selected": {
+                        "\u761f\u75ab\u4f20\u64ad\u5730\u533a": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "name": "\u761f\u75ab\u4f20\u64ad\u5730\u533a",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "world",
+                    "data": [
+                        {
+                            "name": "United States",
+                            "value": 212125
+                        },
+                        {
+                            "name": "Canada",
+                            "value": 57328
+                        },
+                        {
+                            "name": "Mexico",
+                            "value": 13518
+                        },
+                        {
+                            "name": "Cuba",
+                            "value": 378
+                        },
+                        {
+                            "name": "Greenland",
+                            "value": 73
+                        },
+                        {
+                            "name": "Ireland",
+                            "value": 344
+                        },
+                        {
+                            "name": "Russia",
+                            "value": 1000
+                        },
+                        {
+                            "name": "China",
+                            "value": 10
+                        },
+                        {
+                            "name": "United Kingdom",
+                            "value": 80
+                        },
+                        {
+                            "name": "Spain",
+                            "value": 110
+                        },
+                        {
+                            "name": "Germany",
+                            "value": 128
+                        },
+                        {
+                            "name": "France",
+                            "value": 123
+                        },
+                        {
+                            "name": "Italy",
+                            "value": 34
+                        },
+                        {
+                            "name": "Mococco",
+                            "value": 345
+                        },
+                        {
+                            "name": "Colombia",
+                            "value": 231
+                        },
+                        {
+                            "name": "Brazil",
+                            "value": 221
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Map-19\u6708\u761f\u75ab\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "piecewise",
+                "min": 0,
+                "max": 322342,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "min": 10000
+                    },
+                    {
+                        "min": 2500,
+                        "max": 10000
+                    },
+                    {
+                        "min": 600,
+                        "max": 2500
+                    },
+                    {
+                        "min": 200,
+                        "max": 600
+                    },
+                    {
+                        "min": 10,
+                        "max": 200
+                    }
+                ]
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_1a92da26f96f4cc19352f26c46c213f8.setOption(option_1a92da26f96f4cc19352f26c46c213f8);
+    </script>
+</body>
+</html>
